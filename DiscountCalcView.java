@@ -79,7 +79,7 @@ public class DiscountCalcView extends JFrame{
 
      
 
-    public Double getFirstNumber(){
+    public Double originalPrice(){
 
          
 
@@ -91,7 +91,7 @@ public class DiscountCalcView extends JFrame{
 
      
 
-    public Double getSecondNumber(){
+    public Double discount(){
 
          
 

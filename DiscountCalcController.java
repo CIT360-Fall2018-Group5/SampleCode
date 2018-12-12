@@ -50,7 +50,7 @@ public class DiscountCalcController {
 
              
 
-            double firstNumber, secondNumber = 0;
+            double originalPrice, discount = 0;
             
 
              
@@ -66,13 +66,13 @@ public class DiscountCalcController {
 
              
 
-                firstNumber = theView.getFirstNumber();
+                originalPrice = theView.originalPrice();
 
-                secondNumber = theView.getSecondNumber();
+                discount = theView.discount();
 
                  
 
-                theModel.addTwoNumbers(firstNumber, secondNumber);
+                theModel.calcDiscount(originalPrice, discount);
 
                  
 

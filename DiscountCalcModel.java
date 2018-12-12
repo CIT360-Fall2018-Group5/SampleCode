@@ -25,11 +25,11 @@ public class DiscountCalcModel {
 
      
 
-    public void addTwoNumbers(Double firstNumber, Double secondNumber){
+    public void calcDiscount(Double originalPrice, Double discount){
         
          
 
-        discountedTotal = firstNumber - (firstNumber * secondNumber)/100;         
+        discountedTotal = originalPrice - (originalPrice * discount)/100;         
 
     }
 
